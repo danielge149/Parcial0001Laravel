@@ -1,18 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marca</title>
-</head>
-<body>
-        
-        <table class="table">
+
+
+@extends('layouts.app')
+
+@section('title', 'Marcas')
+
+@section('content')
+   <div>
+    <br><br><br>
+   </div>
+ 
+    <table class="table table-success table-striped">
         <thead>
             <tr>
-            <th scope="col">idMarca</th>
-            <th scope="col">Descripcion</th>
+                <th scope="col">Id</th>
+                <th scope="col">Descripcion</th>
             </tr>
         </thead>
         <tbody>
-</body>
+            @foreach($brand as $m)
+                <tr>
+                    <td>{{$m->idMarca}}</td>
+                    <td>{{$m->descripcion}}</td>
+                    
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
+
+
+@endsection

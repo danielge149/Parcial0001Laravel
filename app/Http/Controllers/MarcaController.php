@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\DB;
 class MarcaController extends Controller
 {
     public function index(){
-        $facultades = DB::table('marca')->get();
-        return view('marca.listado', ['brand'=>$facultades]);
+        $marca = DB::table('marca')->get();
+        return view('marca.listado', ['brand'=>$marca]);
     }
 
 }

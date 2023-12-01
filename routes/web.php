@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticuloController;
 use App\Http\Controllers\MarcaController;
+use App\Http\Controllers\TiendaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,11 +20,11 @@ Route::get('/', function () {
 });
 
 Route::get('/Getial/articulos', [ArticuloController::class,'index']
-)->middleware(['auth', 'verified'])->name('listado_articulo');
+)->name('listado_articulo');
 
 Route::get('/Bastidas/marcas', [MarcaController::class,'index']
-)->middleware(['auth', 'verified'])->name('listado_marca');
+)->name('listado_marca');
 
-Route::get('/Bastidas/presentacion', [MarcaController::class,'index']
-)->middleware(['auth', 'verified'])->name('listado_presentacion');
+Route::get('/Bastidas/presentacion', [TiendaController::class,'index']
+)->name('listado_presentacion');
 

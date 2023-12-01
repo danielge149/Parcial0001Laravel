@@ -21,7 +21,7 @@ class ArticuloSeeder extends Seeder
                 'color' => 'Blancos',
                 'precioUnitario' => '200000',
                 'observacion' => 'Lindos tenis para el dia a dia',
-                'foto' => 'foto',
+                'foto' => 'img/nike1.jpg',
                 'marca' => '1',
             ],
             [
@@ -31,7 +31,7 @@ class ArticuloSeeder extends Seeder
                 'color' => 'Negro',
                 'precioUnitario' => '180000',
                 'observacion' => 'Ideales para senderismo y actividades deportivas',
-                'foto' => 'foto',
+                'foto' => 'img/reebok2.jpg',
                 'marca' => '2',
             ],
             [
@@ -41,7 +41,7 @@ class ArticuloSeeder extends Seeder
                 'color' => 'Azul',
                 'precioUnitario' => '50000',
                 'observacion' => 'Cómoda y transpirable',
-                'foto' => 'foto',
+                'foto' => 'img/adidas3.jpg',
                 'marca' => '3',
             ],
             [
@@ -51,7 +51,7 @@ class ArticuloSeeder extends Seeder
                 'color' => 'Rojo',
                 'precioUnitario' => '30000',
                 'observacion' => 'Diseño moderno y ajustable',
-                'foto' => 'foto',
+                'foto' => 'img/gorra4.jpg',
                 'marca' => '4',
             ],
             [
@@ -61,7 +61,7 @@ class ArticuloSeeder extends Seeder
                 'color' => 'Negro',
                 'precioUnitario' => '120000',
                 'observacion' => 'Apta para actividades al aire libre en invierno',
-                'foto' => 'foto',
+                'foto' => 'img/nike5.jpg',
                 'marca' => '1',
             ]
 

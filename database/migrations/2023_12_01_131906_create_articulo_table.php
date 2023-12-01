@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('color',100);
             $table->float('precioUnitario');
             $table->text('observacion');
-            $table->string('foto',10);
+            $table->string('foto',255);
             $table->string('marca',5);
             $table->primary('referencia');
             $table->foreign('marca')->references('idMarca')->on('marca');
