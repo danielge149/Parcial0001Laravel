@@ -32,6 +32,6 @@ class MarcaSeeder extends Seeder
             ],
             
         ];
-        BD::table('marca')->insert($datos);
+        DB::table('marca')->insert($datos);
     }
 }
